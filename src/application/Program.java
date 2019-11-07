@@ -22,6 +22,7 @@ public class Program {
 		List<Product> list = new ArrayList<>();
 		SimpleDateFormat df = new SimpleDateFormat("dd/MM/yyyy");
 		
+		System.out.println("LANÇAMENTOS DE PRODUTOS ");
 		System.out.print("Enter the number of products: ");
 		int n = sc.nextInt();
 		
